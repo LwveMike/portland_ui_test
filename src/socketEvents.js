@@ -1,0 +1,12 @@
+class SocketEvents {
+  CREATE_PRODUCT = 'CREATE_PRODUCT';
+  UPDATE_PRODUCT = 'UPDATE_PRODUCT';
+  PRODUCT_UPDATED = 'PRODUCT_UPDATED';
+  DELETE_PRODUCT = 'DELETE_PRODUCT';
+  GET_PRODUCT = 'GET_PRODUCT';
+  PRODUCT_DELETED = 'PRODUCT_DELETED';
+  CONNECTION = 'connection';
+  DISCONNECT = 'disconnect';
+}
+
+export default new SocketEvents();
